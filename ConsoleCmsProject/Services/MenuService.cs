@@ -228,7 +228,7 @@ namespace ConsoleCmsProject.Services
             if (inputanswer == "y")
             {
                 await ErrandService.DeleteAsync(email);
-                Console.WriteLine("The errand has been removed");
+                Console.WriteLine("The errand has been removed.");
             }
             else
             {
